@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Varun Portfolio</title>
+<link rel="stylesheet" href="portfolio6.css">
+
+
+</head>
+<body>
+
+<nav>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+  <ul id="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+<section class="hero" id="home">
+  <div class="hero-left">
+    <img src="../images/me.jpg" alt="Varun Photo">
+    <h1>Hi, I'm Varun</h1>
+    <p>3rd Year CSE Student | Software Developer | Problem Solver | full stack developer </p>
+  </div>
+  <div class="hero-right">
+    
+    <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding Animation">
+  </div>
+</section>
+
+
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="grid">
+    <div class="card"><div class="card-inner"><div class="card-front">Languages</div><div class="card-back">C, C++, Java, Python, JavaScript</div></div></div>
+    <div class="card"><div class="card-inner"><div class="card-front">Web Development</div><div class="card-back">HTML, CSS</div></div></div>
+    <div class="card"><div class="card-inner"><div class="card-front">Database</div><div class="card-back">SQL</div></div></div>
+    <div class="card"><div class="card-inner"><div class="card-front">Cloud</div><div class="card-back">AWS (EC2, S3, IAM, Lambda)</div></div></div>
+    <div class="card"><div class="card-inner"><div class="card-front">Tools</div><div class="card-back">Git, VS Code</div></div></div>
+    <div class="card"><div class="card-inner"><div class="card-front">Other</div><div class="card-back">DSA, Tkinter, Competitive Coding</div></div></div>
+  </div>
+</section>
+
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">📌 Biscuit Code</div>
+        <div class="card-back">
+          Educational platform with notes, quizzes & coding problems.<br>
+          Tech: HTML, CSS, JS <br><br>
+          <button onclick="window.open('https://varunbalanagu.github.io/biscuitcode3/', '_blank')" class="btn-link project-btn">View Project</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">📌 College Sports Hub</div>
+        <div class="card-back">
+          Web app for live scores & registrations.<br>
+          Tech: HTML, CSS, JS <br><br>
+          <button onclick="window.open('https://charan2066.github.io/Sports_Projects_Hub//', '_blank')" class="btn-link project-btn">View Project</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="achievements">
+  <h2>Achievements</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">🏆 LeetCode</div>
+        <div class="card-back">
+          Solved 350+ Problems <br><br>
+          <button onclick="window.open('https://leetcode.com/u/varunbalanagu/', '_blank')" class="btn-link profile-btn">View Profile</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">💻 GeeksforGeeks</div>
+        <div class="card-back">
+          Solved 150+ Problems <br><br>
+          <button onclick="window.open('https://www.geeksforgeeks.org/user/varunba8kfh/', '_blank')" class="btn-link profile-btn">View Profile</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">🌟 CodeChef</div>
+        <div class="card-back">
+          Max Rating: 1420 (2-Star) <br><br>
+          <button onclick="window.open('https://www.codechef.com/users/varuncoder12', '_blank')" class="btn-link profile-btn">View Profile</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">🎖 Skill Badges</div>
+        <div class="card-back">
+          4⭐ Java, SQL, Python | 3⭐ C, Problem Solving <br><br>
+          <button onclick="window.open('https://www.hackerrank.com/profile/varunbalanagu', '_blank')" class="btn-link profile-btn">View Badges</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="grid">
+    <div class="card"><div class="card-inner"><div class="card-front">Cisco</div><div class="card-back">C, C++, Python, Operating Systems</div></div></div>
+    <div class="card"><div class="card-inner"><div class="card-front">Oracle</div><div class="card-back">Java Certified</div></div></div>
+    <div class="card"><div class="card-inner"><div class="card-front">IT Specialist</div><div class="card-back">HTML & CSS</div></div></div>
+    <div class="card"><div class="card-inner"><div class="card-front">NPTEL</div><div class="card-back">Cloud Computing</div></div></div>
+  </div>
+</section>
+
+
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <a href="mailto:varunbalanagu@gmail.com">Email</a>
+  <a href="https://linkedin.com/in/varunbalanagu" target="_blank">LinkedIn</a>
+  <a href="https://github.com/varunbalanagu" target="_blank">GitHub</a>
+</section>
+
+</body>
+<script>
+function toggleMenu(){
+  document.getElementById("nav-links").classList.toggle("active");
+}
+</script>
+
+</html>
